@@ -1,0 +1,96 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.logout-btn {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.logout-btn:hover {
+    background-color: #555;
+}
+
+/* Main section for library */
+.library-section {
+    text-align: center;
+}
+
+.library-section h2 {
+    font-size: 1.8em;
+    color: #222;
+}
+
+.library-section p {
+    font-size: 1.2em;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+/* Book card grid */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.book-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+}
+
+.book-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.book-card h3 {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.book-card p {
+    font-size: 0.9em;
+    color: #666;
+}

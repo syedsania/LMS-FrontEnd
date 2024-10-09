@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Book</title>
+    <link rel="stylesheet" href="../CSS/admin/add-book.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Resource Library</h1>
+        <div class="admin-logout">
+            <span class="admin-name">Admin</span>
+            <button class="logout-button">Logout</button>
+        </div>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <ul>
+            <li><a href="#">HOME</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Form -->
+    <div class="form-container">
+        <form>
+            <h2>Add Book</h2>
+
+            <label for="book-name">Book Name</label>
+            <input type="text" id="book-name" placeholder="Enter book name" required>
+
+            <label for="author">Author</label>
+            <select id="author" required>
+                <option value="">Select an author</option>
+                <option value="author1">Author 1</option>
+                <option value="author2">Author 2</option>
+            </select>
+
+            <label for="description">Description</label>
+            <textarea id="description" rows="4" placeholder="Enter a short description" required></textarea>
+
+            <div class="terms">
+                <input type="checkbox" id="terms" required>
+                <label for="terms">I accept the terms</label>
+                <a href="#">Read our T&Cs</a>
+            </div>
+
+            <button type="submit" class="submit-button">Add Book</button>
+        </form>
+    </div>
+</body>
+</html>

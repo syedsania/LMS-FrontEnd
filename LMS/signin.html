@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <link rel="stylesheet" href="CSS/signin.css">
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="back-link" style="position: absolute; top: 0; left: 0; margin: 10px;">← Previous</a>
+    </header>
+
+
+    <div class="container">
+        <header>
+            <h1>Sign In</h1>
+            <a href="register.html" class="register">Don't have an account? Register</a>
+        </header>
+        <main>
+            <div class="login-section">
+                <div class="login-box">
+                    <h2>User login</h2>
+                    <form>
+                        <label for="student-email">Email</label>
+                        <input type="email" id="student-email" name="email" placeholder="Enter your email">
+                        <label for="student-password">Password</label>
+                        <input type="password" id="student-password" name="password" placeholder="Enter your password">
+                        <a href="user/home.html">sign in</a>
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </form>
+                </div>
+                <div class="login-box">
+                    <h2>Admin login</h2>
+                    <form>
+                        <label for="admin-email">Email</label>
+                        <input type="email" name="email" placeholder="Enter your email">
+                        <label for="admin-password">Password</label>
+                        <input type="password" name="password" placeholder="Enter your password">
+
+                        <a href="admin/home.html"> sign in</a>
+                    
+                        <a href="#" class="forgot-password">Forgot password?</a>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>

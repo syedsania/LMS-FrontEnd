@@ -1,0 +1,109 @@
+/* General resets */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.header-left a {
+    text-decoration: none;
+    color: #555;
+    font-size: 1.2em;
+}
+
+/* Search bar styles */
+.search-bar-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    background-color: #ececec;
+    border-radius: 50px;
+    padding: 10px 20px;
+    width: 70%;
+    max-width: 600px;
+}
+
+.menu-icon, .search-icon {
+    font-size: 1.5em;
+    color: #888;
+    margin-right: 10px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Main section for resources */
+.resources-section h2 {
+    font-size: 1.8em;
+    color: #222;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+/* Resource card grid */
+.resources-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.resource-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.resource-card .info-icon {
+    font-size: 1.5em;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.resource-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.resource-card p {
+    font-size: 0.9em;
+    color: #666;
+}
